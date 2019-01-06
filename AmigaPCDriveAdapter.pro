@@ -1,4 +1,4 @@
-update=Sun 23 Dec 2018 16:08:44 CET
+update=Sun 06 Jan 2019 23:37:28 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../../packages/kicad/kicad-symbols;../../../packages/kicad/kicad-packages3D;../../../packages/kicad/kicad-footprints
+LibDir=../../../../packages/kicad/kicad-footprints;../../../../packages/kicad/kicad-packages3D;../../../../packages/kicad/kicad-symbols
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,14 +68,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/debian/packages/kicad/kicad-symbols/AmigaComponents
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName30=/home/debian/Progetti/RetroBitLab-Library/AmigaComponents
