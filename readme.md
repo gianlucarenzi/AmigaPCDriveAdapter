@@ -10,7 +10,7 @@ It must be connected to the floppy disk drive 34-pin interface on the drive
 itself, then hooked up with the original cables from Amiga motherboard.
 
 # Images
-[[/gianlucarenzi/AmigaPCDriveAdapter/blob/master/images/AmigaPCDriveAdapter-f.png]]
+(https://github.com/gianlucarenzi/AmigaPCDriveAdapter/blob/master/images/AmigaPCDriveAdapter-f.png)
 
 # Whats changed?
 V1.0 Initial release
