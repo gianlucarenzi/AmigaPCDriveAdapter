@@ -9,8 +9,8 @@ It is a simple but powerful adapter to use internally in any Amiga Computer!
 It must be connected to the floppy disk drive 34-pin interface on the drive
 itself, then hooked up with the original cables from Amiga motherboard.
 
-# Help and Instructions 
-TODO
+# Images
+[[https://github.com/gianlucarenzi/AmigaPCDriveAdapter/blob/master/images/AmigaPCDriveAdapter-f.png|alt=APCDAFront]]
 
 # Whats changed?
 V1.0 Initial release
