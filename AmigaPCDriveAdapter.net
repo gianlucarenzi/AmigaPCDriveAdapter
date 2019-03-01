@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/debian/Progetti/AMIGA/AmigaPCDriveAdapter/AmigaPCDriveAdapter.sch)
-    (date "Fri 01 Mar 2019 13:59:50 CET")
+    (date "Fri 01 Mar 2019 14:09:43 CET")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -257,10 +257,10 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical AmigaPCDriveAdapter-cache)
       (uri /home/debian/Progetti/AMIGA/AmigaPCDriveAdapter/AmigaPCDriveAdapter-cache.lib)))
   (nets
