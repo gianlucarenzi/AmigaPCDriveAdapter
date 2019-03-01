@@ -1,35 +1,82 @@
 EESchema Schematic File Version 2
-LIBS:AmigaPCDriveAdapter-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
+LIBS:74xgxx
 LIBS:74xx
-LIBS:cmos4000
+LIBS:ac-dc
+LIBS:actel
 LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
+LIBS:Altera
+LIBS:analog_devices
 LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
 LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
 LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
 LIBS:valves
-LIBS:AmigaComponents
+LIBS:video
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
 LIBS:4xxx
 LIBS:4xxx_IEEE
 LIBS:74xGxx
@@ -59,6 +106,7 @@ LIBS:CPLD_Xilinx
 LIBS:CPU
 LIBS:CPU_NXP_6800
 LIBS:CPU_NXP_68000
+LIBS:CPU_NXP_IMX
 LIBS:CPU_PowerPC
 LIBS:Device
 LIBS:Diode
@@ -68,6 +116,7 @@ LIBS:Display_Character
 LIBS:Display_Graphic
 LIBS:Driver_Display
 LIBS:Driver_FET
+LIBS:Driver_Haptic
 LIBS:Driver_LED
 LIBS:Driver_Motor
 LIBS:Driver_Relay
@@ -164,10 +213,8 @@ LIBS:Memory_UniqueID
 LIBS:Motor
 LIBS:Oscillator
 LIBS:Potentiometer_Digital
-LIBS:Power_Management
 LIBS:Power_Protection
 LIBS:Power_Supervisor
-LIBS:pspice
 LIBS:Reference_Current
 LIBS:Reference_Voltage
 LIBS:Regulator_Controller
@@ -181,6 +228,7 @@ LIBS:RF
 LIBS:RF_AM_FM
 LIBS:RF_Amplifier
 LIBS:RF_Bluetooth
+LIBS:RF_Filter
 LIBS:RF_GPS
 LIBS:RF_GSM
 LIBS:RF_Mixer
@@ -203,6 +251,7 @@ LIBS:Sensor_Proximity
 LIBS:Sensor_Temperature
 LIBS:Sensor_Touch
 LIBS:Sensor_Voltage
+LIBS:Simulation_SPICE
 LIBS:Switch
 LIBS:Timer
 LIBS:Timer_PLL
@@ -231,7 +280,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74LS38-RESCUE-AmigaPCDriveAdapter U1
+L AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter U1
 U 1 1 5BF30922
 P 4950 5900
 F 0 "U1" H 4950 5950 50  0000 C CNN
@@ -242,7 +291,7 @@ F 3 "" H 4950 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS38-RESCUE-AmigaPCDriveAdapter U1
+L AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter U1
 U 2 1 5BF3096B
 P 5700 5800
 F 0 "U1" H 5700 5850 50  0000 C CNN
@@ -269,7 +318,7 @@ U 1 1 5BF32608
 P 6150 4400
 F 0 "TO_AMIGA1" V 5750 4400 50  0000 C CNN
 F 1 "CONN_02X17" V 6150 4400 50  0000 C CNN
-F 2 "Connect:IDC_Header_Straight_34pins" H 6150 3300 50  0001 C CNN
+F 2 "RetroBitLab:IDC-Header_2x17_P2.54mm_Vertical_Lock" H 6150 3300 50  0001 C CNN
 F 3 "" H 6150 3300 50  0000 C CNN
 	1    6150 4400
 	1    0    0    -1  
@@ -575,7 +624,7 @@ F 3 "" H 1450 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74LS38-RESCUE-AmigaPCDriveAdapter U1
+L AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter U1
 U 5 1 5BF3627C
 P 3550 6300
 F 0 "U1" H 3550 6350 50  0000 C CNN
@@ -608,7 +657,7 @@ F 3 "" H 3550 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS38-RESCUE-AmigaPCDriveAdapter U1
+L AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter U1
 U 3 1 5BF36E85
 P 4650 6650
 F 0 "U1" H 4650 6700 50  0000 C CNN
@@ -619,7 +668,7 @@ F 3 "" H 4650 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS38-RESCUE-AmigaPCDriveAdapter U1
+L AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter U1
 U 4 1 5BF36ECC
 P 5550 6700
 F 0 "U1" H 5550 6750 50  0000 C CNN
@@ -914,14 +963,14 @@ Connection ~ 6800 4800
 Connection ~ 6700 4900
 Connection ~ 6600 5000
 Wire Wire Line
-	4650 1650 4650 1550
+	4650 1550 4650 1650
 Wire Wire Line
-	4650 1550 3850 1550
+	3850 1550 4650 1550
 Wire Wire Line
 	3850 1550 3850 1650
 Connection ~ 4100 1550
 Wire Wire Line
-	4400 1650 4400 1550
+	4400 1550 4400 1650
 Connection ~ 4400 1550
 Wire Wire Line
 	4100 1650 4100 1550
@@ -940,10 +989,10 @@ Wire Wire Line
 	8250 3100 8250 3150
 Connection ~ 8250 3150
 Wire Wire Line
-	8400 3150 6400 3150
+	6400 3150 8400 3150
 Connection ~ 6400 3150
 Wire Wire Line
-	5500 3150 5900 3150
+	5900 3150 5500 3150
 Connection ~ 5900 3150
 Wire Wire Line
 	1950 1350 1950 1500

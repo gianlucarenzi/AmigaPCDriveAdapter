@@ -1,16 +1,16 @@
 (export (version D)
   (design
-    (source /home/debian/AMIGA/projects/AmigaPCDriveAdapter/AmigaPCDriveAdapter.sch)
-    (date "Sun 23 Dec 2018 15:33:08 CET")
+    (source /home/debian/Progetti/AMIGA/AmigaPCDriveAdapter/AmigaPCDriveAdapter.sch)
+    (date "Fri 01 Mar 2019 13:59:50 CET")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "AMIGA PC FLOPPY ADAPTER")
-        (company)
+        (company "RETROBIT LAB")
         (rev)
         (date 2018-11-19)
         (source AmigaPCDriveAdapter.sch)
-        (comment (number 1) (value ""))
+        (comment (number 1) (value "Gianluca Renzi <icjtqr@gmail.com>"))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
         (comment (number 4) (value "")))))
@@ -18,7 +18,7 @@
     (comp (ref U1)
       (value 74LS38)
       (footprint Housings_DIP:DIP-14_W7.62mm)
-      (libsource (lib 74xx) (part 74LS38))
+      (libsource (lib AmigaPCDriveAdapter-cache) (part AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BF30922))
     (comp (ref TO_FLOPPY1)
@@ -29,7 +29,7 @@
       (tstamp 5BF325B4))
     (comp (ref TO_AMIGA1)
       (value CONN_02X17)
-      (footprint Connect:IDC_Header_Straight_34pins)
+      (footprint RetroBitLab:IDC-Header_2x17_P2.54mm_Vertical_Lock)
       (libsource (lib conn) (part CONN_02X17))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BF32608))
@@ -124,14 +124,12 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C1F9BF4)))
   (libparts
-    (libpart (lib 74xx) (part 74LS26)
-      (aliases
-        (alias 74LS38))
+    (libpart (lib AmigaPCDriveAdapter-cache) (part AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter)
       (footprints
         (fp DIP?14*))
       (fields
         (field (name Reference) U)
-        (field (name Value) 74LS26))
+        (field (name Value) AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter))
       (pins
         (pin (num 1) (name ~) (type input))
         (pin (num 2) (name ~) (type input))
@@ -259,12 +257,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical 74xx)
-      (uri /home/debian/packages/kicad/kicad-symbols/74xx.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+    (library (logical AmigaPCDriveAdapter-cache)
+      (uri /home/debian/Progetti/AMIGA/AmigaPCDriveAdapter/AmigaPCDriveAdapter-cache.lib)))
   (nets
     (net (code 1) (name "Net-(TO_AMIGA1-Pad14)")
       (node (ref TO_FLOPPY1) (pin 14))

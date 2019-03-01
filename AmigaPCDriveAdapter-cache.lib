@@ -31,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# 74LS38-RESCUE-AmigaPCDriveAdapter
+# AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter
 #
-DEF 74LS38-RESCUE-AmigaPCDriveAdapter U 0 40 Y Y 5 L N
+DEF AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter U 0 40 Y Y 5 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "74LS38-RESCUE-AmigaPCDriveAdapter" 0 -50 50 H V C CNN
+F1 "AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
