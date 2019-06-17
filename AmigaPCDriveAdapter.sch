@@ -136,7 +136,6 @@ LIBS:FPGA_Xilinx_Spartan6
 LIBS:FPGA_Xilinx_Virtex5
 LIBS:FPGA_Xilinx_Virtex6
 LIBS:FPGA_Xilinx_Virtex7
-LIBS:ft232rl
 LIBS:GPU
 LIBS:Graphic
 LIBS:Interface
@@ -202,7 +201,6 @@ LIBS:MCU_ST_STM32L4+
 LIBS:MCU_Texas
 LIBS:MCU_Texas_MSP430
 LIBS:Mechanical
-LIBS:Memory_Controller
 LIBS:Memory_EEPROM
 LIBS:Memory_EPROM
 LIBS:Memory_Flash
@@ -271,12 +269,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AMIGA PC FLOPPY ADAPTER"
-Date "2018-11-19"
+Date "2019-06-17"
 Rev ""
 Comp "RETROBIT LAB"
 Comment1 "Gianluca Renzi <icjtqr@gmail.com>"
-Comment2 ""
-Comment3 ""
+Comment2 "not compatibles with Amiga Computers"
+Comment3 "Printed Circuit Board Adapter for Floppy Drives"
 Comment4 ""
 $EndDescr
 $Comp

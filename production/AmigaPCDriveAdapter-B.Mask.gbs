@@ -1,10 +1,10 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,4.0.2+dfsg1-stable*%
-%TF.CreationDate,2019-03-01T14:06:32+01:00*%
+%TF.CreationDate,2019-06-17T11:45:11+02:00*%
 %TF.ProjectId,AmigaPCDriveAdapter,416D6967615043447269766541646170,rev?*%
 %TF.FileFunction,Soldermask,Bot*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.2+dfsg1-stable) date Fri 01 Mar 2019 14:06:32 CET*
+G04 Created by KiCad (PCBNEW 4.0.2+dfsg1-stable) date lun 17 giu 2019 11:45:11 CEST*
 %MOMM*%
 G01*
 G04 APERTURE LIST*

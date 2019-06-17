@@ -1,4 +1,4 @@
-update=Fri 01 Mar 2019 13:38:58 CET
+update=lun 17 giu 2019 11:43:42 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=../../../packages/kicad/kicad-footprints;../../../packages/kicad/kicad-packages3D;../../../packages/kicad/kicad-symbols
@@ -308,3 +298,13 @@ LibName266=/home/debian/packages/kicad/kicad-symbols/Transistor_IGBT
 LibName267=/home/debian/packages/kicad/kicad-symbols/Triac_Thyristor
 LibName268=/home/debian/packages/kicad/kicad-symbols/Valve
 LibName269=/home/debian/packages/kicad/kicad-symbols/Video
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
