@@ -1,5 +1,5 @@
-Drill report for /home/debian/Progetti/Amiga/AmigaPCDriveAdapter/AmigaPCDriveAdapter.kicad_pcb
-Created on lun 17 giu 2019 11:45:18 CEST
+Drill report for /home/debian/Progetti/AMIGA/AmigaPCDriveAdapter/AmigaPCDriveAdapter.kicad_pcb
+Created on Sat 23 Jan 2021 02:19:45 PM CET
 
 Copper Layer Stackup:
     =============================================================
@@ -7,15 +7,15 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'AmigaPCDriveAdapter.drl' contains
+Drill file 'AmigaPCDriveAdapter-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,40mm  0,016"  (9 holes)
-    T2  0,80mm  0,031"  (14 holes)
-    T3  0,91mm  0,036"  (34 holes)
-    T4  1,02mm  0,040"  (42 holes)
+    T1  0.40mm  0.016"  (2 holes)
+    T2  0.80mm  0.031"  (14 holes)
+    T3  0.91mm  0.036"  (34 holes)
+    T4  1.00mm  0.039"  (42 holes)
 
-    Total plated holes count 99
+    Total plated holes count 92
 
 
 Drill file 'AmigaPCDriveAdapter-NPTH.drl' contains
