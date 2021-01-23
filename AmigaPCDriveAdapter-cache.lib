@@ -1,43 +1,14 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# AmigaPCDriveAdapter-rescue_+12V-power1
+# 74xx_74LS38
 #
-DEF AmigaPCDriveAdapter-rescue_+12V-power1 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AmigaPCDriveAdapter-rescue_+12V-power1" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# AmigaPCDriveAdapter-rescue_+5V-power1
-#
-DEF AmigaPCDriveAdapter-rescue_+5V-power1 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AmigaPCDriveAdapter-rescue_+5V-power1" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# AmigaPCDriveAdapter-rescue_AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue
-#
-DEF AmigaPCDriveAdapter-rescue_AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue U 0 40 Y Y 5 L N
+DEF 74xx_74LS38 U 0 40 Y Y 5 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "AmigaPCDriveAdapter-rescue_AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue" 0 -50 50 H V C CNN
+F1 "74xx_74LS38" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+ALIAS 74LS38
 $FPLIST
  DIP?14*
 $ENDFPLIST
@@ -104,148 +75,137 @@ X ~ 13 -300 -100 170 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
-# AmigaPCDriveAdapter-rescue_CONN_01X04-AmigaPCDriveAdapter-rescue
+# Connector_Generic_Conn_01x04
 #
-DEF AmigaPCDriveAdapter-rescue_CONN_01X04-AmigaPCDriveAdapter-rescue P 0 40 Y N 1 F N
-F0 "P" 0 250 50 H V C CNN
-F1 "AmigaPCDriveAdapter-rescue_CONN_01X04-AmigaPCDriveAdapter-rescue" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X04
- Pin_Header_Angled_1X04
- Socket_Strip_Straight_1X04
- Socket_Strip_Angled_1X04
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
-S -50 -145 10 -155 0 1 0 N
-S -50 -45 10 -55 0 1 0 N
-S -50 55 10 45 0 1 0 N
-S -50 155 10 145 0 1 0 N
-S -50 200 50 -200 0 1 0 N
-X P1 1 -200 150 150 R 50 50 1 1 P
-X P2 2 -200 50 150 R 50 50 1 1 P
-X P3 3 -200 -50 150 R 50 50 1 1 P
-X P4 4 -200 -150 150 R 50 50 1 1 P
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AmigaPCDriveAdapter-rescue_CONN_02X17-AmigaPCDriveAdapter-rescue
+# Connector_Generic_Conn_02x17_Odd_Even
 #
-DEF AmigaPCDriveAdapter-rescue_CONN_02X17-AmigaPCDriveAdapter-rescue P 0 1 Y N 1 F N
-F0 "P" 0 900 50 H V C CNN
-F1 "AmigaPCDriveAdapter-rescue_CONN_02X17-AmigaPCDriveAdapter-rescue" 0 0 50 V V C CNN
-F2 "" 0 -1100 50 H V C CNN
-F3 "" 0 -1100 50 H V C CNN
+DEF Connector_Generic_Conn_02x17_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 900 50 H V C CNN
+F1 "Connector_Generic_Conn_02x17_Odd_Even" 50 -900 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_2X17
- Pin_Header_Angled_2X17
- Socket_Strip_Straight_2X17
- Socket_Strip_Angled_2X17
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
-S -100 -795 -50 -805 0 1 0 N
-S -100 -695 -50 -705 0 1 0 N
-S -100 -595 -50 -605 0 1 0 N
-S -100 -495 -50 -505 0 1 0 N
-S -100 -395 -50 -405 0 1 0 N
-S -100 -295 -50 -305 0 1 0 N
-S -100 -195 -50 -205 0 1 0 N
-S -100 -95 -50 -105 0 1 0 N
-S -100 5 -50 -5 0 1 0 N
-S -100 105 -50 95 0 1 0 N
-S -100 205 -50 195 0 1 0 N
-S -100 305 -50 295 0 1 0 N
-S -100 405 -50 395 0 1 0 N
-S -100 505 -50 495 0 1 0 N
-S -100 605 -50 595 0 1 0 N
-S -100 705 -50 695 0 1 0 N
-S -100 805 -50 795 0 1 0 N
-S -100 850 100 -850 0 1 0 N
-S 50 -795 100 -805 0 1 0 N
-S 50 -695 100 -705 0 1 0 N
-S 50 -595 100 -605 0 1 0 N
-S 50 -495 100 -505 0 1 0 N
-S 50 -395 100 -405 0 1 0 N
-S 50 -295 100 -305 0 1 0 N
-S 50 -195 100 -205 0 1 0 N
-S 50 -95 100 -105 0 1 0 N
-S 50 5 100 -5 0 1 0 N
-S 50 105 100 95 0 1 0 N
-S 50 205 100 195 0 1 0 N
-S 50 305 100 295 0 1 0 N
-S 50 405 100 395 0 1 0 N
-S 50 505 100 495 0 1 0 N
-S 50 605 100 595 0 1 0 N
-S 50 705 100 695 0 1 0 N
-S 50 805 100 795 0 1 0 N
-X P1 1 -250 800 150 R 50 50 1 1 P
-X P10 10 250 400 150 L 50 50 1 1 P
-X P11 11 -250 300 150 R 50 50 1 1 P
-X P12 12 250 300 150 L 50 50 1 1 P
-X P13 13 -250 200 150 R 50 50 1 1 P
-X P14 14 250 200 150 L 50 50 1 1 P
-X P15 15 -250 100 150 R 50 50 1 1 P
-X P16 16 250 100 150 L 50 50 1 1 P
-X P17 17 -250 0 150 R 50 50 1 1 P
-X P18 18 250 0 150 L 50 50 1 1 P
-X P19 19 -250 -100 150 R 50 50 1 1 P
-X P2 2 250 800 150 L 50 50 1 1 P
-X P20 20 250 -100 150 L 50 50 1 1 P
-X P21 21 -250 -200 150 R 50 50 1 1 P
-X P22 22 250 -200 150 L 50 50 1 1 P
-X P23 23 -250 -300 150 R 50 50 1 1 P
-X P24 24 250 -300 150 L 50 50 1 1 P
-X P25 25 -250 -400 150 R 50 50 1 1 P
-X P26 26 250 -400 150 L 50 50 1 1 P
-X P27 27 -250 -500 150 R 50 50 1 1 P
-X P28 28 250 -500 150 L 50 50 1 1 P
-X P29 29 -250 -600 150 R 50 50 1 1 P
-X P3 3 -250 700 150 R 50 50 1 1 P
-X P30 30 250 -600 150 L 50 50 1 1 P
-X P31 31 -250 -700 150 R 50 50 1 1 P
-X P32 32 250 -700 150 L 50 50 1 1 P
-X P33 33 -250 -800 150 R 50 50 1 1 P
-X P34 34 250 -800 150 L 50 50 1 1 P
-X P4 4 250 700 150 L 50 50 1 1 P
-X P5 5 -250 600 150 R 50 50 1 1 P
-X P6 6 250 600 150 L 50 50 1 1 P
-X P7 7 -250 500 150 R 50 50 1 1 P
-X P8 8 250 500 150 L 50 50 1 1 P
-X P9 9 -250 400 150 R 50 50 1 1 P
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 805 0 795 1 1 6 N
+S -50 850 150 -850 1 1 10 f
+S 150 -795 100 -805 1 1 6 N
+S 150 -695 100 -705 1 1 6 N
+S 150 -595 100 -605 1 1 6 N
+S 150 -495 100 -505 1 1 6 N
+S 150 -395 100 -405 1 1 6 N
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+S 150 305 100 295 1 1 6 N
+S 150 405 100 395 1 1 6 N
+S 150 505 100 495 1 1 6 N
+S 150 605 100 595 1 1 6 N
+S 150 705 100 695 1 1 6 N
+S 150 805 100 795 1 1 6 N
+X Pin_1 1 -200 800 150 R 50 50 1 1 P
+X Pin_10 10 300 400 150 L 50 50 1 1 P
+X Pin_11 11 -200 300 150 R 50 50 1 1 P
+X Pin_12 12 300 300 150 L 50 50 1 1 P
+X Pin_13 13 -200 200 150 R 50 50 1 1 P
+X Pin_14 14 300 200 150 L 50 50 1 1 P
+X Pin_15 15 -200 100 150 R 50 50 1 1 P
+X Pin_16 16 300 100 150 L 50 50 1 1 P
+X Pin_17 17 -200 0 150 R 50 50 1 1 P
+X Pin_18 18 300 0 150 L 50 50 1 1 P
+X Pin_19 19 -200 -100 150 R 50 50 1 1 P
+X Pin_2 2 300 800 150 L 50 50 1 1 P
+X Pin_20 20 300 -100 150 L 50 50 1 1 P
+X Pin_21 21 -200 -200 150 R 50 50 1 1 P
+X Pin_22 22 300 -200 150 L 50 50 1 1 P
+X Pin_23 23 -200 -300 150 R 50 50 1 1 P
+X Pin_24 24 300 -300 150 L 50 50 1 1 P
+X Pin_25 25 -200 -400 150 R 50 50 1 1 P
+X Pin_26 26 300 -400 150 L 50 50 1 1 P
+X Pin_27 27 -200 -500 150 R 50 50 1 1 P
+X Pin_28 28 300 -500 150 L 50 50 1 1 P
+X Pin_29 29 -200 -600 150 R 50 50 1 1 P
+X Pin_3 3 -200 700 150 R 50 50 1 1 P
+X Pin_30 30 300 -600 150 L 50 50 1 1 P
+X Pin_31 31 -200 -700 150 R 50 50 1 1 P
+X Pin_32 32 300 -700 150 L 50 50 1 1 P
+X Pin_33 33 -200 -800 150 R 50 50 1 1 P
+X Pin_34 34 300 -800 150 L 50 50 1 1 P
+X Pin_4 4 300 700 150 L 50 50 1 1 P
+X Pin_5 5 -200 600 150 R 50 50 1 1 P
+X Pin_6 6 300 600 150 L 50 50 1 1 P
+X Pin_7 7 -200 500 150 R 50 50 1 1 P
+X Pin_8 8 300 500 150 L 50 50 1 1 P
+X Pin_9 9 -200 400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AmigaPCDriveAdapter-rescue_CP1_Small-AmigaPCDriveAdapter-rescue
+# Device_CP1_Small
 #
-DEF AmigaPCDriveAdapter-rescue_CP1_Small-AmigaPCDriveAdapter-rescue C 0 10 N N 1 F N
+DEF Device_CP1_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "AmigaPCDriveAdapter-rescue_CP1_Small-AmigaPCDriveAdapter-rescue" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F1 "Device_CP1_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP*
- Elko*
- TantalC*
- C*elec
- c_elec*
- SMD*_Pol
+ CP_*
 $ENDFPLIST
 DRAW
 A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
 P 2 0 1 12 -60 20 60 20 N
 P 2 0 1 0 -50 60 -30 60 N
 P 2 0 1 0 -40 50 -40 70 N
-X ~ 1 0 100 80 D 40 40 1 1 P
-X ~ 2 0 -100 80 U 40 40 1 1 P
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AmigaPCDriveAdapter-rescue_C_Small-Device1
+# Device_C_Small
 #
-DEF AmigaPCDriveAdapter-rescue_C_Small-Device1 C 0 10 N N 1 F N
+DEF Device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "AmigaPCDriveAdapter-rescue_C_Small-Device1" 10 -80 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -259,11 +219,81 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AmigaPCDriveAdapter-rescue_GND-power1
+# Device_LED_Small
 #
-DEF AmigaPCDriveAdapter-rescue_GND-power1 #PWR 0 0 Y Y 1 F P
+DEF Device_LED_Small D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "Device_LED_Small" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+12V
+#
+DEF power_+12V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "AmigaPCDriveAdapter-rescue_GND-power1" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -272,55 +302,16 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AmigaPCDriveAdapter-rescue_Led_Small-AmigaPCDriveAdapter-rescue
+# power_PWR_FLAG
 #
-DEF AmigaPCDriveAdapter-rescue_Led_Small-AmigaPCDriveAdapter-rescue D 0 10 N N 1 F N
-F0 "D" -50 125 50 H V L CNN
-F1 "AmigaPCDriveAdapter-rescue_Led_Small-AmigaPCDriveAdapter-rescue" -175 -100 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
-$FPLIST
- CP*
- SM*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -30 -40 -30 40 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
-P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
-P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
-X K 1 -100 0 70 R 40 40 1 1 P
-X A 2 100 0 70 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# AmigaPCDriveAdapter-rescue_PWR_FLAG-power1
-#
-DEF AmigaPCDriveAdapter-rescue_PWR_FLAG-power1 #FLG 0 0 N N 1 F P
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "AmigaPCDriveAdapter-rescue_PWR_FLAG-power1" 0 150 50 H V C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# AmigaPCDriveAdapter-rescue_R-AmigaPCDriveAdapter-rescue
-#
-DEF AmigaPCDriveAdapter-rescue_R-AmigaPCDriveAdapter-rescue R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "AmigaPCDriveAdapter-rescue_R-AmigaPCDriveAdapter-rescue" 0 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

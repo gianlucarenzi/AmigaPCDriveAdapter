@@ -15,7 +15,7 @@ Comment3 "Printed Circuit Board Adapter for Floppy Drives"
 Comment4 ""
 $EndDescr
 $Comp
-L AmigaPCDriveAdapter-rescue:AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue U1
+L 74xx:74LS38 U1
 U 1 1 5BF30922
 P 4950 5900
 F 0 "U1" H 4950 5950 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 4950 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue U1
+L 74xx:74LS38 U1
 U 2 1 5BF3096B
 P 5700 5800
 F 0 "U1" H 5700 5850 50  0000 C CNN
@@ -37,30 +37,30 @@ F 3 "" H 5700 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:CONN_02X17-AmigaPCDriveAdapter-rescue TO_FLOPPY1
+L Connector_Generic:Conn_02x17_Odd_Even TO_FLOPPY1
 U 1 1 5BF325B4
-P 6150 1950
-F 0 "TO_FLOPPY1" V 5750 1900 50  0000 C CNN
-F 1 "CONN_02X17" V 6150 1950 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical" H 6150 850 50  0001 C CNN
-F 3 "" H 6150 850 50  0000 C CNN
-	1    6150 1950
+P 6100 1950
+F 0 "TO_FLOPPY1" V 5700 1900 50  0000 C CNN
+F 1 "CONN_02X17" V 6100 1950 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical" H 6100 850 50  0001 C CNN
+F 3 "" H 6100 850 50  0000 C CNN
+	1    6100 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:CONN_02X17-AmigaPCDriveAdapter-rescue TO_AMIGA1
+L Connector_Generic:Conn_02x17_Odd_Even TO_AMIGA1
 U 1 1 5BF32608
-P 6150 4400
-F 0 "TO_AMIGA1" V 5750 4400 50  0000 C CNN
-F 1 "CONN_02X17" V 6150 4400 50  0000 C CNN
-F 2 "RetroBitLab:IDC-Header_2x17_P2.54mm_Vertical_Lock" H 6150 3300 50  0001 C CNN
-F 3 "" H 6150 3300 50  0000 C CNN
-	1    6150 4400
+P 6100 4400
+F 0 "TO_AMIGA1" V 5700 4400 50  0000 C CNN
+F 1 "CONN_02X17" V 6100 4400 50  0000 C CNN
+F 2 "RetroBitLab:IDC-Header_2x17_P2.54mm_Vertical_Lock" H 6100 3300 50  0001 C CNN
+F 3 "" H 6100 3300 50  0000 C CNN
+	1    6100 4400
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6400 1150
 $Comp
-L AmigaPCDriveAdapter-rescue:GND-power1 #PWR01
+L power:GND #PWR01
 U 1 1 5BF336B1
 P 5500 3300
 F 0 "#PWR01" H 5500 3050 50  0001 C CNN
@@ -71,7 +71,7 @@ F 3 "" H 5500 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:PWR_FLAG-power1 #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 5BF336CD
 P 5500 3150
 F 0 "#FLG02" H 5500 3225 50  0001 C CNN
@@ -82,7 +82,7 @@ F 3 "" H 5500 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R7
+L Device:R R7
 U 1 1 5BF33A10
 P 6600 5650
 F 0 "R7" V 6680 5650 50  0000 C CNN
@@ -93,7 +93,7 @@ F 3 "" H 6600 5650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR03
+L power:+5V #PWR03
 U 1 1 5BF33AD3
 P 6600 5500
 F 0 "#PWR03" H 6600 5350 50  0001 C CNN
@@ -104,7 +104,7 @@ F 3 "" H 6600 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:PWR_FLAG-power1 #FLG04
+L power:PWR_FLAG #FLG04
 U 1 1 5BF33C2A
 P 6600 5500
 F 0 "#FLG04" H 6600 5575 50  0001 C CNN
@@ -119,7 +119,7 @@ Text GLabel 8400 3150 2    60   Input ~ 0
 Text GLabel 5400 5700 0    60   Input ~ 0
 ~REDWC
 $Comp
-L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R6
+L Device:R R6
 U 1 1 5BF33E24
 P 8250 2950
 F 0 "R6" V 8330 2950 50  0000 C CNN
@@ -130,7 +130,7 @@ F 3 "" H 8250 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR05
+L power:+5V #PWR05
 U 1 1 5BF33E57
 P 8250 2800
 F 0 "#PWR05" H 8250 2650 50  0001 C CNN
@@ -141,7 +141,7 @@ F 3 "" H 8250 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R5
+L Device:R R5
 U 1 1 5BF33E87
 P 5250 6050
 F 0 "R5" V 5330 6050 50  0000 C CNN
@@ -152,7 +152,7 @@ F 3 "" H 5250 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR06
+L power:+5V #PWR06
 U 1 1 5BF33F39
 P 5250 6200
 F 0 "#PWR06" H 5250 6050 50  0001 C CNN
@@ -183,7 +183,7 @@ Text GLabel 4650 1950 3    60   Input ~ 0
 Text GLabel 3850 1950 3    60   Input ~ 0
 ~INDEX
 $Comp
-L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR07
+L power:+5V #PWR07
 U 1 1 5BF34B97
 P 4250 1300
 F 0 "#PWR07" H 4250 1150 50  0001 C CNN
@@ -194,7 +194,7 @@ F 3 "" H 4250 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R4
+L Device:R R4
 U 1 1 5BF351BE
 P 4650 1800
 F 0 "R4" V 4730 1800 50  0000 C CNN
@@ -205,7 +205,7 @@ F 3 "" H 4650 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R3
+L Device:R R3
 U 1 1 5BF35267
 P 4400 1800
 F 0 "R3" V 4480 1800 50  0000 C CNN
@@ -216,7 +216,7 @@ F 3 "" H 4400 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R2
+L Device:R R2
 U 1 1 5BF35298
 P 4100 1800
 F 0 "R2" V 4180 1800 50  0000 C CNN
@@ -227,7 +227,7 @@ F 3 "" H 4100 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R1
+L Device:R R1
 U 1 1 5BF352CE
 P 3850 1800
 F 0 "R1" V 3930 1800 50  0000 C CNN
@@ -238,18 +238,18 @@ F 3 "" H 3850 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:CONN_01X04-AmigaPCDriveAdapter-rescue P1
+L Connector_Generic:Conn_01x04 P1
 U 1 1 5BF353AC
-P 2750 3350
-F 0 "P1" H 2750 3600 50  0000 C CNN
-F 1 "CONN_01X04" V 2850 3350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2750 3350 50  0001 C CNN
-F 3 "" H 2750 3350 50  0000 C CNN
-	1    2750 3350
+P 2800 3350
+F 0 "P1" H 2800 3600 50  0000 C CNN
+F 1 "CONN_01X04" V 2900 3350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2800 3350 50  0001 C CNN
+F 3 "" H 2800 3350 50  0000 C CNN
+	1    2800 3350
 	0    1    1    0   
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR08
+L power:+5V #PWR08
 U 1 1 5BF355B6
 P 2900 2950
 F 0 "#PWR08" H 2900 2800 50  0001 C CNN
@@ -260,7 +260,7 @@ F 3 "" H 2900 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:+12V-power1 #PWR09
+L power:+12V #PWR09
 U 1 1 5BF355E2
 P 2600 2950
 F 0 "#PWR09" H 2600 2800 50  0001 C CNN
@@ -271,7 +271,7 @@ F 3 "" H 2600 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:GND-power1 #PWR010
+L power:GND #PWR010
 U 1 1 5BF3560E
 P 2700 3150
 F 0 "#PWR010" H 2700 2900 50  0001 C CNN
@@ -282,7 +282,7 @@ F 3 "" H 2700 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:GND-power1 #PWR011
+L power:GND #PWR011
 U 1 1 5BF35644
 P 2800 3150
 F 0 "#PWR011" H 2800 2900 50  0001 C CNN
@@ -293,7 +293,7 @@ F 3 "" H 2800 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:PWR_FLAG-power1 #FLG012
+L power:PWR_FLAG #FLG012
 U 1 1 5BF35673
 P 2600 2950
 F 0 "#FLG012" H 2600 3025 50  0001 C CNN
@@ -304,18 +304,18 @@ F 3 "" H 2600 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:CONN_01X04-AmigaPCDriveAdapter-rescue P2
+L Connector_Generic:Conn_01x04 P2
 U 1 1 5BF35EC9
-P 1400 3350
-F 0 "P2" H 1400 3600 50  0000 C CNN
-F 1 "CONN_01X04" V 1500 3350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 1400 3350 50  0001 C CNN
-F 3 "" H 1400 3350 50  0000 C CNN
-	1    1400 3350
+P 1450 3350
+F 0 "P2" H 1450 3600 50  0000 C CNN
+F 1 "CONN_01X04" V 1550 3350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 1450 3350 50  0001 C CNN
+F 3 "" H 1450 3350 50  0000 C CNN
+	1    1450 3350
 	0    1    1    0   
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR013
+L power:+5V #PWR013
 U 1 1 5BF35ED1
 P 1550 2950
 F 0 "#PWR013" H 1550 2800 50  0001 C CNN
@@ -326,7 +326,7 @@ F 3 "" H 1550 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:+12V-power1 #PWR014
+L power:+12V #PWR014
 U 1 1 5BF35ED7
 P 1250 2950
 F 0 "#PWR014" H 1250 2800 50  0001 C CNN
@@ -337,7 +337,7 @@ F 3 "" H 1250 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:GND-power1 #PWR015
+L power:GND #PWR015
 U 1 1 5BF35EDD
 P 1350 3150
 F 0 "#PWR015" H 1350 2900 50  0001 C CNN
@@ -348,7 +348,7 @@ F 3 "" H 1350 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:GND-power1 #PWR016
+L power:GND #PWR016
 U 1 1 5BF35EE3
 P 1450 3150
 F 0 "#PWR016" H 1450 2900 50  0001 C CNN
@@ -359,7 +359,7 @@ F 3 "" H 1450 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue U1
+L 74xx:74LS38 U1
 U 5 1 5BF3627C
 P 3550 6300
 F 0 "U1" H 3550 6350 50  0000 C CNN
@@ -370,7 +370,7 @@ F 3 "" H 3550 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR017
+L power:+5V #PWR017
 U 1 1 5BF36319
 P 3550 5800
 F 0 "#PWR017" H 3550 5650 50  0001 C CNN
@@ -381,7 +381,7 @@ F 3 "" H 3550 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:GND-power1 #PWR018
+L power:GND #PWR018
 U 1 1 5BF3636C
 P 3550 6800
 F 0 "#PWR018" H 3550 6550 50  0001 C CNN
@@ -392,7 +392,7 @@ F 3 "" H 3550 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue U1
+L 74xx:74LS38 U1
 U 3 1 5BF36E85
 P 4650 6650
 F 0 "U1" H 4650 6700 50  0000 C CNN
@@ -403,7 +403,7 @@ F 3 "" H 4650 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue U1
+L 74xx:74LS38 U1
 U 4 1 5BF36ECC
 P 5550 6700
 F 0 "U1" H 5550 6750 50  0000 C CNN
@@ -420,7 +420,7 @@ NoConn ~ 4950 6650
 NoConn ~ 4350 6750
 NoConn ~ 4350 6550
 $Comp
-L AmigaPCDriveAdapter-rescue:GND-power1 #PWR019
+L power:GND #PWR019
 U 1 1 5BF37D1F
 P 2900 1900
 F 0 "#PWR019" H 2900 1650 50  0001 C CNN
@@ -431,7 +431,7 @@ F 3 "" H 2900 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR020
+L power:+5V #PWR020
 U 1 1 5BF37D71
 P 2900 1400
 F 0 "#PWR020" H 2900 1250 50  0001 C CNN
@@ -442,7 +442,7 @@ F 3 "" H 2900 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R8
+L Device:R R8
 U 1 1 5BF37D9E
 P 2900 1550
 F 0 "R8" V 2980 1550 50  0000 C CNN
@@ -453,7 +453,7 @@ F 3 "" H 2900 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:Led_Small-AmigaPCDriveAdapter-rescue D1
+L Device:LED_Small D1
 U 1 1 5BF37DE7
 P 2900 1800
 F 0 "D1" H 2850 1925 50  0000 L CNN
@@ -464,7 +464,7 @@ F 3 "" V 2900 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:+12V-power1 #PWR021
+L power:+12V #PWR021
 U 1 1 5C1F99AB
 P 1400 1350
 F 0 "#PWR021" H 1400 1200 50  0001 C CNN
@@ -475,7 +475,7 @@ F 3 "" H 1400 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:GND-power1 #PWR022
+L power:GND #PWR022
 U 1 1 5C1F99EC
 P 1400 1900
 F 0 "#PWR022" H 1400 1650 50  0001 C CNN
@@ -486,7 +486,7 @@ F 3 "" H 1400 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:C_Small-Device1 C2
+L Device:C_Small C2
 U 1 1 5C1F9A1D
 P 1400 1600
 F 0 "C2" H 1410 1670 50  0000 L CNN
@@ -497,7 +497,7 @@ F 3 "" H 1400 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:C_Small-Device1 C3
+L Device:C_Small C3
 U 1 1 5C1F9A72
 P 1950 1600
 F 0 "C3" H 1960 1670 50  0000 L CNN
@@ -508,7 +508,7 @@ F 3 "" H 1950 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR023
+L power:+5V #PWR023
 U 1 1 5C1F9B0B
 P 1950 1350
 F 0 "#PWR023" H 1950 1200 50  0001 C CNN
@@ -519,7 +519,7 @@ F 3 "" H 1950 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:GND-power1 #PWR024
+L power:GND #PWR024
 U 1 1 5C1F9B52
 P 1950 1900
 F 0 "#PWR024" H 1950 1650 50  0001 C CNN
@@ -530,7 +530,7 @@ F 3 "" H 1950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:CP1_Small-AmigaPCDriveAdapter-rescue C4
+L Device:CP1_Small C4
 U 1 1 5C1F9BAF
 P 2350 1600
 F 0 "C4" H 2360 1670 50  0000 L CNN
@@ -541,7 +541,7 @@ F 3 "" H 2350 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue:CP1_Small-AmigaPCDriveAdapter-rescue C1
+L Device:CP1_Small C1
 U 1 1 5C1F9BF4
 P 950 1600
 F 0 "C1" H 960 1670 50  0000 L CNN
