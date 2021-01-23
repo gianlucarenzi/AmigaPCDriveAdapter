@@ -1,276 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
-LIBS:4xxx
-LIBS:4xxx_IEEE
-LIBS:74xGxx
-LIBS:74xx_IEEE
-LIBS:Amplifier_Audio
-LIBS:Amplifier_Buffer
-LIBS:Amplifier_Current
-LIBS:Amplifier_Difference
-LIBS:Amplifier_Instrumentation
-LIBS:Amplifier_Operational
-LIBS:Amplifier_Video
-LIBS:Analog
-LIBS:Analog_ADC
-LIBS:Analog_DAC
-LIBS:Analog_Switch
-LIBS:Audio
-LIBS:Battery_Management
-LIBS:Comparator
-LIBS:Connector
-LIBS:Connector_Generic
-LIBS:Connector_Generic_MountingPin
-LIBS:Connector_Generic_Shielded
-LIBS:Converter_ACDC
-LIBS:Converter_DCDC
-LIBS:CPLD_Altera
-LIBS:CPLD_Xilinx
-LIBS:CPU
-LIBS:CPU_NXP_6800
-LIBS:CPU_NXP_68000
-LIBS:CPU_NXP_IMX
-LIBS:CPU_PowerPC
-LIBS:Device
-LIBS:Diode
-LIBS:Diode_Bridge
-LIBS:Diode_Laser
-LIBS:Display_Character
-LIBS:Display_Graphic
-LIBS:Driver_Display
-LIBS:Driver_FET
-LIBS:Driver_Haptic
-LIBS:Driver_LED
-LIBS:Driver_Motor
-LIBS:Driver_Relay
-LIBS:DSP_AnalogDevices
-LIBS:DSP_Freescale
-LIBS:DSP_Microchip_DSPIC33
-LIBS:DSP_Motorola
-LIBS:DSP_Texas
-LIBS:Fiber_Optic
-LIBS:Filter
-LIBS:FPGA_Lattice
-LIBS:FPGA_Microsemi
-LIBS:FPGA_Xilinx
-LIBS:FPGA_Xilinx_Artix7
-LIBS:FPGA_Xilinx_Kintex7
-LIBS:FPGA_Xilinx_Spartan6
-LIBS:FPGA_Xilinx_Virtex5
-LIBS:FPGA_Xilinx_Virtex6
-LIBS:FPGA_Xilinx_Virtex7
-LIBS:GPU
-LIBS:Graphic
-LIBS:Interface
-LIBS:Interface_CAN_LIN
-LIBS:Interface_CurrentLoop
-LIBS:Interface_Ethernet
-LIBS:Interface_Expansion
-LIBS:Interface_HID
-LIBS:Interface_LineDriver
-LIBS:Interface_Optical
-LIBS:Interface_Telecom
-LIBS:Interface_UART
-LIBS:Interface_USB
-LIBS:Isolator
-LIBS:Isolator_Analog
-LIBS:Jumper
-LIBS:LED
-LIBS:Logic_LevelTranslator
-LIBS:Logic_Programmable
-LIBS:MCU_AnalogDevices
-LIBS:MCU_Cypress
-LIBS:MCU_Espressif
-LIBS:MCU_Intel
-LIBS:MCU_Microchip_8051
-LIBS:MCU_Microchip_ATmega
-LIBS:MCU_Microchip_ATtiny
-LIBS:MCU_Microchip_AVR
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_Microchip_SAMD
-LIBS:MCU_Microchip_SAME
-LIBS:MCU_Microchip_SAML
-LIBS:MCU_Module
-LIBS:MCU_Nordic
-LIBS:MCU_NXP_ColdFire
-LIBS:MCU_NXP_HC11
-LIBS:MCU_NXP_HC12
-LIBS:MCU_NXP_HCS12
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_MAC7100
-LIBS:MCU_NXP_MCore
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_SiFive
-LIBS:MCU_SiliconLabs
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32F0
-LIBS:MCU_ST_STM32F1
-LIBS:MCU_ST_STM32F2
-LIBS:MCU_ST_STM32F3
-LIBS:MCU_ST_STM32F4
-LIBS:MCU_ST_STM32F7
-LIBS:MCU_ST_STM32H7
-LIBS:MCU_ST_STM32L0
-LIBS:MCU_ST_STM32L1
-LIBS:MCU_ST_STM32L4
-LIBS:MCU_ST_STM32L4+
-LIBS:MCU_Texas
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:Memory_EEPROM
-LIBS:Memory_EPROM
-LIBS:Memory_Flash
-LIBS:Memory_NVRAM
-LIBS:Memory_RAM
-LIBS:Memory_ROM
-LIBS:Memory_UniqueID
-LIBS:Motor
-LIBS:Oscillator
-LIBS:Potentiometer_Digital
-LIBS:Power_Protection
-LIBS:Power_Supervisor
-LIBS:Reference_Current
-LIBS:Reference_Voltage
-LIBS:Regulator_Controller
-LIBS:Regulator_Current
-LIBS:Regulator_Linear
-LIBS:Regulator_SwitchedCapacitor
-LIBS:Regulator_Switching
-LIBS:Relay
-LIBS:Relay_SolidState
-LIBS:RF
-LIBS:RF_AM_FM
-LIBS:RF_Amplifier
-LIBS:RF_Bluetooth
-LIBS:RF_Filter
-LIBS:RF_GPS
-LIBS:RF_GSM
-LIBS:RF_Mixer
-LIBS:RF_Module
-LIBS:RF_RFID
-LIBS:RF_Switch
-LIBS:RF_WiFi
-LIBS:RF_ZigBee
-LIBS:Security
-LIBS:Sensor
-LIBS:Sensor_Audio
-LIBS:Sensor_Current
-LIBS:Sensor_Gas
-LIBS:Sensor_Humidity
-LIBS:Sensor_Magnetic
-LIBS:Sensor_Motion
-LIBS:Sensor_Optical
-LIBS:Sensor_Pressure
-LIBS:Sensor_Proximity
-LIBS:Sensor_Temperature
-LIBS:Sensor_Touch
-LIBS:Sensor_Voltage
-LIBS:Simulation_SPICE
-LIBS:Switch
-LIBS:Timer
-LIBS:Timer_PLL
-LIBS:Timer_RTC
-LIBS:Transformer
-LIBS:Transistor_Array
-LIBS:Transistor_BJT
-LIBS:Transistor_FET
-LIBS:Transistor_IGBT
-LIBS:Triac_Thyristor
-LIBS:Valve
-LIBS:Video
+EESchema Schematic File Version 4
 LIBS:AmigaPCDriveAdapter-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AMIGA PC FLOPPY ADAPTER"
-Date "2019-06-17"
-Rev ""
+Date "2021-01-23"
+Rev "2.0"
 Comp "RETROBIT LAB"
 Comment1 "Gianluca Renzi <icjtqr@gmail.com>"
 Comment2 "not compatibles with Amiga Computers"
@@ -278,40 +15,40 @@ Comment3 "Printed Circuit Board Adapter for Floppy Drives"
 Comment4 ""
 $EndDescr
 $Comp
-L AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter U1
+L AmigaPCDriveAdapter-rescue:AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue U1
 U 1 1 5BF30922
 P 4950 5900
 F 0 "U1" H 4950 5950 50  0000 C CNN
 F 1 "74LS38" H 4950 5850 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 4950 5900 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4950 5900 50  0001 C CNN
 F 3 "" H 4950 5900 50  0001 C CNN
 	1    4950 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter U1
+L AmigaPCDriveAdapter-rescue:AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue U1
 U 2 1 5BF3096B
 P 5700 5800
 F 0 "U1" H 5700 5850 50  0000 C CNN
 F 1 "74LS38" H 5700 5750 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 5700 5800 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5700 5800 50  0001 C CNN
 F 3 "" H 5700 5800 50  0001 C CNN
 	2    5700 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X17 TO_FLOPPY1
+L AmigaPCDriveAdapter-rescue:CONN_02X17-AmigaPCDriveAdapter-rescue TO_FLOPPY1
 U 1 1 5BF325B4
 P 6150 1950
 F 0 "TO_FLOPPY1" V 5750 1900 50  0000 C CNN
 F 1 "CONN_02X17" V 6150 1950 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x17" H 6150 850 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical" H 6150 850 50  0001 C CNN
 F 3 "" H 6150 850 50  0000 C CNN
 	1    6150 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X17 TO_AMIGA1
+L AmigaPCDriveAdapter-rescue:CONN_02X17-AmigaPCDriveAdapter-rescue TO_AMIGA1
 U 1 1 5BF32608
 P 6150 4400
 F 0 "TO_AMIGA1" V 5750 4400 50  0000 C CNN
@@ -323,7 +60,7 @@ F 3 "" H 6150 3300 50  0000 C CNN
 $EndComp
 NoConn ~ 6400 1150
 $Comp
-L GND #PWR01
+L AmigaPCDriveAdapter-rescue:GND-power1 #PWR01
 U 1 1 5BF336B1
 P 5500 3300
 F 0 "#PWR01" H 5500 3050 50  0001 C CNN
@@ -334,7 +71,7 @@ F 3 "" H 5500 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L AmigaPCDriveAdapter-rescue:PWR_FLAG-power1 #FLG02
 U 1 1 5BF336CD
 P 5500 3150
 F 0 "#FLG02" H 5500 3225 50  0001 C CNN
@@ -345,18 +82,18 @@ F 3 "" H 5500 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R7
 U 1 1 5BF33A10
 P 6600 5650
 F 0 "R7" V 6680 5650 50  0000 C CNN
 F 1 "2.2K" V 6600 5650 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 6530 5650 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6530 5650 50  0001 C CNN
 F 3 "" H 6600 5650 50  0000 C CNN
 	1    6600 5650
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR03
+L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR03
 U 1 1 5BF33AD3
 P 6600 5500
 F 0 "#PWR03" H 6600 5350 50  0001 C CNN
@@ -367,7 +104,7 @@ F 3 "" H 6600 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG04
+L AmigaPCDriveAdapter-rescue:PWR_FLAG-power1 #FLG04
 U 1 1 5BF33C2A
 P 6600 5500
 F 0 "#FLG04" H 6600 5575 50  0001 C CNN
@@ -382,18 +119,18 @@ Text GLabel 8400 3150 2    60   Input ~ 0
 Text GLabel 5400 5700 0    60   Input ~ 0
 ~REDWC
 $Comp
-L R R6
+L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R6
 U 1 1 5BF33E24
 P 8250 2950
 F 0 "R6" V 8330 2950 50  0000 C CNN
 F 1 "2,2K" V 8250 2950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 8180 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8180 2950 50  0001 C CNN
 F 3 "" H 8250 2950 50  0000 C CNN
 	1    8250 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR05
+L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR05
 U 1 1 5BF33E57
 P 8250 2800
 F 0 "#PWR05" H 8250 2650 50  0001 C CNN
@@ -404,18 +141,18 @@ F 3 "" H 8250 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R5
 U 1 1 5BF33E87
 P 5250 6050
 F 0 "R5" V 5330 6050 50  0000 C CNN
 F 1 "2.2K" V 5250 6050 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 5180 6050 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5180 6050 50  0001 C CNN
 F 3 "" H 5250 6050 50  0000 C CNN
 	1    5250 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR06
+L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR06
 U 1 1 5BF33F39
 P 5250 6200
 F 0 "#PWR06" H 5250 6050 50  0001 C CNN
@@ -446,7 +183,7 @@ Text GLabel 4650 1950 3    60   Input ~ 0
 Text GLabel 3850 1950 3    60   Input ~ 0
 ~INDEX
 $Comp
-L +5V #PWR07
+L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR07
 U 1 1 5BF34B97
 P 4250 1300
 F 0 "#PWR07" H 4250 1150 50  0001 C CNN
@@ -457,62 +194,62 @@ F 3 "" H 4250 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R4
 U 1 1 5BF351BE
 P 4650 1800
 F 0 "R4" V 4730 1800 50  0000 C CNN
 F 1 "2.2K" V 4650 1800 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4580 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4580 1800 50  0001 C CNN
 F 3 "" H 4650 1800 50  0000 C CNN
 	1    4650 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R3
 U 1 1 5BF35267
 P 4400 1800
 F 0 "R3" V 4480 1800 50  0000 C CNN
 F 1 "2.2K" V 4400 1800 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4330 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4330 1800 50  0001 C CNN
 F 3 "" H 4400 1800 50  0000 C CNN
 	1    4400 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R2
 U 1 1 5BF35298
 P 4100 1800
 F 0 "R2" V 4180 1800 50  0000 C CNN
 F 1 "2.2K" V 4100 1800 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4030 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4030 1800 50  0001 C CNN
 F 3 "" H 4100 1800 50  0000 C CNN
 	1    4100 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R1
 U 1 1 5BF352CE
 P 3850 1800
 F 0 "R1" V 3930 1800 50  0000 C CNN
 F 1 "2.2K" V 3850 1800 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3780 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3780 1800 50  0001 C CNN
 F 3 "" H 3850 1800 50  0000 C CNN
 	1    3850 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P1
+L AmigaPCDriveAdapter-rescue:CONN_01X04-AmigaPCDriveAdapter-rescue P1
 U 1 1 5BF353AC
 P 2750 3350
 F 0 "P1" H 2750 3600 50  0000 C CNN
 F 1 "CONN_01X04" V 2850 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 2750 3350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2750 3350 50  0001 C CNN
 F 3 "" H 2750 3350 50  0000 C CNN
 	1    2750 3350
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR08
+L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR08
 U 1 1 5BF355B6
 P 2900 2950
 F 0 "#PWR08" H 2900 2800 50  0001 C CNN
@@ -523,7 +260,7 @@ F 3 "" H 2900 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR09
+L AmigaPCDriveAdapter-rescue:+12V-power1 #PWR09
 U 1 1 5BF355E2
 P 2600 2950
 F 0 "#PWR09" H 2600 2800 50  0001 C CNN
@@ -534,7 +271,7 @@ F 3 "" H 2600 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L AmigaPCDriveAdapter-rescue:GND-power1 #PWR010
 U 1 1 5BF3560E
 P 2700 3150
 F 0 "#PWR010" H 2700 2900 50  0001 C CNN
@@ -545,7 +282,7 @@ F 3 "" H 2700 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR011
+L AmigaPCDriveAdapter-rescue:GND-power1 #PWR011
 U 1 1 5BF35644
 P 2800 3150
 F 0 "#PWR011" H 2800 2900 50  0001 C CNN
@@ -556,7 +293,7 @@ F 3 "" H 2800 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG012
+L AmigaPCDriveAdapter-rescue:PWR_FLAG-power1 #FLG012
 U 1 1 5BF35673
 P 2600 2950
 F 0 "#FLG012" H 2600 3025 50  0001 C CNN
@@ -567,18 +304,18 @@ F 3 "" H 2600 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X04 P2
+L AmigaPCDriveAdapter-rescue:CONN_01X04-AmigaPCDriveAdapter-rescue P2
 U 1 1 5BF35EC9
 P 1400 3350
 F 0 "P2" H 1400 3600 50  0000 C CNN
 F 1 "CONN_01X04" V 1500 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 1400 3350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 1400 3350 50  0001 C CNN
 F 3 "" H 1400 3350 50  0000 C CNN
 	1    1400 3350
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR013
+L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR013
 U 1 1 5BF35ED1
 P 1550 2950
 F 0 "#PWR013" H 1550 2800 50  0001 C CNN
@@ -589,7 +326,7 @@ F 3 "" H 1550 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR014
+L AmigaPCDriveAdapter-rescue:+12V-power1 #PWR014
 U 1 1 5BF35ED7
 P 1250 2950
 F 0 "#PWR014" H 1250 2800 50  0001 C CNN
@@ -600,7 +337,7 @@ F 3 "" H 1250 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L AmigaPCDriveAdapter-rescue:GND-power1 #PWR015
 U 1 1 5BF35EDD
 P 1350 3150
 F 0 "#PWR015" H 1350 2900 50  0001 C CNN
@@ -611,7 +348,7 @@ F 3 "" H 1350 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR016
+L AmigaPCDriveAdapter-rescue:GND-power1 #PWR016
 U 1 1 5BF35EE3
 P 1450 3150
 F 0 "#PWR016" H 1450 2900 50  0001 C CNN
@@ -622,18 +359,18 @@ F 3 "" H 1450 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter U1
+L AmigaPCDriveAdapter-rescue:AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue U1
 U 5 1 5BF3627C
 P 3550 6300
 F 0 "U1" H 3550 6350 50  0000 C CNN
 F 1 "74LS38" H 3550 6250 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 3550 6300 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3550 6300 50  0001 C CNN
 F 3 "" H 3550 6300 50  0001 C CNN
 	5    3550 6300
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR017
+L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR017
 U 1 1 5BF36319
 P 3550 5800
 F 0 "#PWR017" H 3550 5650 50  0001 C CNN
@@ -644,7 +381,7 @@ F 3 "" H 3550 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L AmigaPCDriveAdapter-rescue:GND-power1 #PWR018
 U 1 1 5BF3636C
 P 3550 6800
 F 0 "#PWR018" H 3550 6550 50  0001 C CNN
@@ -655,23 +392,23 @@ F 3 "" H 3550 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter U1
+L AmigaPCDriveAdapter-rescue:AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue U1
 U 3 1 5BF36E85
 P 4650 6650
 F 0 "U1" H 4650 6700 50  0000 C CNN
 F 1 "74LS38" H 4650 6600 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 4650 6650 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4650 6650 50  0001 C CNN
 F 3 "" H 4650 6650 50  0001 C CNN
 	3    4650 6650
 	1    0    0    -1  
 $EndComp
 $Comp
-L AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter U1
+L AmigaPCDriveAdapter-rescue:AmigaPCDriveAdapter-rescue_74LS38-RESCUE-AmigaPCDriveAdapter-AmigaPCDriveAdapter-rescue U1
 U 4 1 5BF36ECC
 P 5550 6700
 F 0 "U1" H 5550 6750 50  0000 C CNN
 F 1 "74LS38" H 5550 6650 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 5550 6700 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5550 6700 50  0001 C CNN
 F 3 "" H 5550 6700 50  0001 C CNN
 	4    5550 6700
 	1    0    0    -1  
@@ -683,7 +420,7 @@ NoConn ~ 4950 6650
 NoConn ~ 4350 6750
 NoConn ~ 4350 6550
 $Comp
-L GND #PWR019
+L AmigaPCDriveAdapter-rescue:GND-power1 #PWR019
 U 1 1 5BF37D1F
 P 2900 1900
 F 0 "#PWR019" H 2900 1650 50  0001 C CNN
@@ -694,7 +431,7 @@ F 3 "" H 2900 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR020
+L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR020
 U 1 1 5BF37D71
 P 2900 1400
 F 0 "#PWR020" H 2900 1250 50  0001 C CNN
@@ -705,29 +442,29 @@ F 3 "" H 2900 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L AmigaPCDriveAdapter-rescue:R-AmigaPCDriveAdapter-rescue R8
 U 1 1 5BF37D9E
 P 2900 1550
 F 0 "R8" V 2980 1550 50  0000 C CNN
 F 1 "330" V 2900 1550 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 2830 1550 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2830 1550 50  0001 C CNN
 F 3 "" H 2900 1550 50  0000 C CNN
 	1    2900 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Led_Small D1
+L AmigaPCDriveAdapter-rescue:Led_Small-AmigaPCDriveAdapter-rescue D1
 U 1 1 5BF37DE7
 P 2900 1800
 F 0 "D1" H 2850 1925 50  0000 L CNN
 F 1 "Led_Small" H 2725 1700 50  0000 L CNN
-F 2 "LEDs:LED_1206" V 2900 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2900 1800 50  0001 C CNN
 F 3 "" V 2900 1800 50  0000 C CNN
 	1    2900 1800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +12V #PWR021
+L AmigaPCDriveAdapter-rescue:+12V-power1 #PWR021
 U 1 1 5C1F99AB
 P 1400 1350
 F 0 "#PWR021" H 1400 1200 50  0001 C CNN
@@ -738,7 +475,7 @@ F 3 "" H 1400 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L AmigaPCDriveAdapter-rescue:GND-power1 #PWR022
 U 1 1 5C1F99EC
 P 1400 1900
 F 0 "#PWR022" H 1400 1650 50  0001 C CNN
@@ -749,29 +486,29 @@ F 3 "" H 1400 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L AmigaPCDriveAdapter-rescue:C_Small-Device1 C2
 U 1 1 5C1F9A1D
 P 1400 1600
 F 0 "C2" H 1410 1670 50  0000 L CNN
 F 1 "100nF" H 1410 1520 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1400 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 1600 50  0001 C CNN
 F 3 "" H 1400 1600 50  0000 C CNN
 	1    1400 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L AmigaPCDriveAdapter-rescue:C_Small-Device1 C3
 U 1 1 5C1F9A72
 P 1950 1600
 F 0 "C3" H 1960 1670 50  0000 L CNN
 F 1 "100nF" H 1960 1520 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1950 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1950 1600 50  0001 C CNN
 F 3 "" H 1950 1600 50  0000 C CNN
 	1    1950 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR023
+L AmigaPCDriveAdapter-rescue:+5V-power1 #PWR023
 U 1 1 5C1F9B0B
 P 1950 1350
 F 0 "#PWR023" H 1950 1200 50  0001 C CNN
@@ -782,7 +519,7 @@ F 3 "" H 1950 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L AmigaPCDriveAdapter-rescue:GND-power1 #PWR024
 U 1 1 5C1F9B52
 P 1950 1900
 F 0 "#PWR024" H 1950 1650 50  0001 C CNN
@@ -793,23 +530,23 @@ F 3 "" H 1950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C4
+L AmigaPCDriveAdapter-rescue:CP1_Small-AmigaPCDriveAdapter-rescue C4
 U 1 1 5C1F9BAF
 P 2350 1600
 F 0 "C4" H 2360 1670 50  0000 L CNN
 F 1 "10uF" H 2360 1520 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2350 1600 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" H 2350 1600 50  0001 C CNN
 F 3 "" H 2350 1600 50  0000 C CNN
 	1    2350 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C1
+L AmigaPCDriveAdapter-rescue:CP1_Small-AmigaPCDriveAdapter-rescue C1
 U 1 1 5C1F9BF4
 P 950 1600
 F 0 "C1" H 960 1670 50  0000 L CNN
 F 1 "10uF" H 960 1520 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 950 1600 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" H 950 1600 50  0001 C CNN
 F 3 "" H 950 1600 50  0000 C CNN
 	1    950  1600
 	1    0    0    -1  
@@ -827,9 +564,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 2550 6600 5000
 Wire Wire Line
-	6400 5000 7950 5000
+	6400 5000 6600 5000
 Wire Wire Line
-	6400 4900 7500 4900
+	6400 4900 6700 4900
 Wire Wire Line
 	6700 4900 6700 2450
 Wire Wire Line
@@ -839,7 +576,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 2350 6800 4800
 Wire Wire Line
-	6400 4800 7050 4800
+	6400 4800 6800 4800
 Wire Wire Line
 	6400 2250 6900 2250
 Wire Wire Line
@@ -881,7 +618,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 1650 7500 4000
 Wire Wire Line
-	6400 4000 7850 4000
+	6400 4000 7500 4000
 Wire Wire Line
 	6400 1550 7600 1550
 Wire Wire Line
@@ -893,7 +630,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 1450 7700 3900
 Wire Wire Line
-	6400 3900 8350 3900
+	6400 3900 7700 3900
 Wire Wire Line
 	6400 1350 7800 1350
 Wire Wire Line
@@ -907,7 +644,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 3700 6400 3700
 Wire Wire Line
-	6400 2750 6400 3600
+	6400 2750 6400 3150
 Connection ~ 5900 1250
 Connection ~ 5900 1350
 Connection ~ 5900 5100
@@ -940,17 +677,17 @@ Connection ~ 5900 1750
 Connection ~ 5900 1650
 Connection ~ 5900 1450
 Wire Wire Line
-	5900 1150 5900 5200
+	5900 1150 5900 1250
 Connection ~ 5900 1550
 Wire Wire Line
 	5500 3150 5500 3300
 Wire Wire Line
 	6400 5200 6400 5800
 Wire Wire Line
-	6000 5800 6600 5800
+	6000 5800 6400 5800
 Connection ~ 6400 5800
 Wire Wire Line
-	4650 5800 4650 6000
+	4650 5800 4650 5900
 Wire Wire Line
 	4650 5900 4400 5900
 Connection ~ 4650 5900
@@ -963,7 +700,7 @@ Connection ~ 6600 5000
 Wire Wire Line
 	4650 1550 4650 1650
 Wire Wire Line
-	3850 1550 4650 1550
+	3850 1550 4100 1550
 Wire Wire Line
 	3850 1550 3850 1650
 Connection ~ 4100 1550
@@ -987,29 +724,29 @@ Wire Wire Line
 	8250 3100 8250 3150
 Connection ~ 8250 3150
 Wire Wire Line
-	6400 3150 8400 3150
+	6400 3150 8250 3150
 Connection ~ 6400 3150
 Wire Wire Line
 	5900 3150 5500 3150
 Connection ~ 5900 3150
 Wire Wire Line
-	1950 1350 1950 1500
+	1950 1350 1950 1400
 Wire Wire Line
 	1950 1400 2350 1400
 Wire Wire Line
 	2350 1400 2350 1500
 Connection ~ 1950 1400
 Wire Wire Line
-	1950 1700 1950 1900
+	1950 1700 1950 1800
 Wire Wire Line
 	2350 1700 2350 1800
 Wire Wire Line
 	2350 1800 1950 1800
 Connection ~ 1950 1800
 Wire Wire Line
-	1400 1350 1400 1500
+	1400 1350 1400 1400
 Wire Wire Line
-	1400 1700 1400 1900
+	1400 1700 1400 1800
 Wire Wire Line
 	1400 1800 950  1800
 Wire Wire Line
@@ -1050,4 +787,102 @@ Wire Notes Line
 	3400 2400 3400 1000
 Text Notes 3450 1100 0    60   ~ 0
 SIGNALS PULL-UPS
+Wire Wire Line
+	5900 1250 5900 1350
+Wire Wire Line
+	5900 1350 5900 1450
+Wire Wire Line
+	5900 5100 5900 5200
+Wire Wire Line
+	5900 5000 5900 5100
+Wire Wire Line
+	5900 4900 5900 5000
+Wire Wire Line
+	5900 4800 5900 4900
+Wire Wire Line
+	5900 4700 5900 4800
+Wire Wire Line
+	5900 4600 5900 4700
+Wire Wire Line
+	5900 4500 5900 4600
+Wire Wire Line
+	5900 4400 5900 4500
+Wire Wire Line
+	5900 4300 5900 4400
+Wire Wire Line
+	5900 4200 5900 4300
+Wire Wire Line
+	5900 4100 5900 4200
+Wire Wire Line
+	5900 4000 5900 4100
+Wire Wire Line
+	5900 3900 5900 4000
+Wire Wire Line
+	5900 3800 5900 3900
+Wire Wire Line
+	5900 3700 5900 3800
+Wire Wire Line
+	5900 3600 5900 3700
+Wire Wire Line
+	5900 2750 5900 3150
+Wire Wire Line
+	5900 2650 5900 2750
+Wire Wire Line
+	5900 2550 5900 2650
+Wire Wire Line
+	5900 2450 5900 2550
+Wire Wire Line
+	5900 2350 5900 2450
+Wire Wire Line
+	5900 2250 5900 2350
+Wire Wire Line
+	5900 2150 5900 2250
+Wire Wire Line
+	5900 2050 5900 2150
+Wire Wire Line
+	5900 1950 5900 2050
+Wire Wire Line
+	5900 1850 5900 1950
+Wire Wire Line
+	5900 1750 5900 1850
+Wire Wire Line
+	5900 1650 5900 1750
+Wire Wire Line
+	5900 1450 5900 1550
+Wire Wire Line
+	5900 1550 5900 1650
+Wire Wire Line
+	6400 5800 6600 5800
+Wire Wire Line
+	4650 5900 4650 6000
+Wire Wire Line
+	7500 4000 7850 4000
+Wire Wire Line
+	7700 3900 8350 3900
+Wire Wire Line
+	6800 4800 7050 4800
+Wire Wire Line
+	6700 4900 7500 4900
+Wire Wire Line
+	6600 5000 7950 5000
+Wire Wire Line
+	4100 1550 4250 1550
+Wire Wire Line
+	4400 1550 4650 1550
+Wire Wire Line
+	4250 1550 4400 1550
+Wire Wire Line
+	8250 3150 8400 3150
+Wire Wire Line
+	6400 3150 6400 3600
+Wire Wire Line
+	5900 3150 5900 3600
+Wire Wire Line
+	1950 1400 1950 1500
+Wire Wire Line
+	1950 1800 1950 1900
+Wire Wire Line
+	1400 1800 1400 1900
+Wire Wire Line
+	1400 1400 1400 1500
 $EndSCHEMATC

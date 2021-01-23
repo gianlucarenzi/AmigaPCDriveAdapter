@@ -5,13 +5,13 @@
   )
   (autoroute_settings
     (fanout off)
-    (autoroute on)
+    (eu.mihosoft.freerouting.autoroute on)
     (postroute on)
     (vias on)
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 80)
+    (start_pass_no 1122)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -83,7 +83,8 @@
   (class "kicad_default"
     GND ~REDWC ~INDEX ~MOTEA ~TRK00 ~WPT ~RDATA +5V
     +12V "Net-(R5-Pad1)" "Net-(R7-Pad1)" "Net-(TO_AMIGA1-Pad4)" "Net-(TO_AMIGA1-Pad6)" "Net-(TO_AMIGA1-Pad12)" "Net-(TO_AMIGA1-Pad14)" "Net-(TO_AMIGA1-Pad16)"
-    "Net-(TO_AMIGA1-Pad18)" "Net-(TO_AMIGA1-Pad20)" "Net-(TO_AMIGA1-Pad22)" "Net-(TO_AMIGA1-Pad24)" "Net-(TO_AMIGA1-Pad32)" "Net-(D1-Pad2)"
+    "Net-(TO_AMIGA1-Pad18)" "Net-(TO_AMIGA1-Pad20)" "Net-(TO_AMIGA1-Pad22)" "Net-(TO_AMIGA1-Pad24)" "Net-(TO_AMIGA1-Pad32)" "Net-(D1-Pad2)" "Net-(TO_FLOPPY1-Pad2)" "Net-(U1-Pad8)"
+    "Net-(U1-Pad9)" "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad12)" "Net-(U1-Pad13)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
