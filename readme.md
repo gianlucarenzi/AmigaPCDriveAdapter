@@ -31,10 +31,10 @@ itself, then hooked up with the original cables from Amiga motherboard.
 
 | Quantity | Digikey's Part No.           | Manufacturer's Part. No. | Description                   | PCB/Schematic's Reference   |
 | -------- | -----------------------------| ------------------------ | ----------------------------- | --------------------------- |
-|    2     | 445-10000-1-ND	              | CGA5H2X8R2A104K115AD	   | CAP CER 0.1UF 100V 1206 EPOXY |          C2, C3             |
-|   10	   | P2.2KECT-ND	                | ERJ-8GEYJ222V	           | RES SMD 2.2K OHM 5% 1/4W 1206 | R1, R2, R3, R4, R5, R6, R7  |
-|    1	   | 754-APTR3216SECK/J3-PRVCT-ND | APTR3216SECK/J3-PRV	     | LED SMD	                     |             D1              |
-|    1     | WM4002-ND                    |	0022032041	             | CONN HEADER VERT 4POS 2.54MM	 |             P1              |
+|    2     | 445-10000-1-ND	              | CGA5H2X8R2A104K115AD	    | CAP CER 0.1UF 100V 1206 EPOXY |          C2, C3             |
+|   10	    | P2.2KECT-ND	                 | ERJ-8GEYJ222V	           | RES SMD 2.2K OHM 5% 1/4W 1206 | R1, R2, R3, R4, R5, R6, R7  |
+|    1	    | 754-APTR3216SECK/J3-PRVCT-ND | APTR3216SECK/J3-PRV	     | LED SMD	                      |             D1              |
+|    1     | WM4002-ND                    |	0022032041	              | CONN HEADER VERT 4POS 2.54MM	 |             P1              |
 |    1     | 609-3407-ND                  | 68016-404HLF             | CONN HEADER R/A 4POS 2.54MM   |             P2              |
 |    1     | 541-CRCW1206330RJNEACCT-ND   | CRCW1206330RJNEAC        | RES 330 OHM 5% 1/4W 1206      |             R8              |
 |    1     | S9174-ND                     | SBH11-PBPC-D17-ST-BK     | CONN HEADER VERT 34POS 2.54MM |          TO_AMIGA1          |
@@ -49,6 +49,6 @@ See licence.txt for more details.
 Additional Copyright/License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software/Hardware.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE/HARDWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE/HARDWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE/HARDWARE.
